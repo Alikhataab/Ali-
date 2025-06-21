@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin-off of "Project: Event invite"</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .invitation-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4b6cb7, #182848);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .detail-item {
+            flex: 1;
+            min-width: 200px;
+            margin-bottom: 15px;
+        }
+        
+        .detail-item h3 {
+            color: #4b6cb7;
+            margin-bottom: 5px;
+        }
+        
+        .description {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f0f5ff;
+            border-radius: 5px;
+        }
+        
+        .guest-list {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        .guest-list th {
+            background-color: #4b6cb7;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .guest-list td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .guest-list tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .rsvp-button {
+            display: block;
+            width: 200px;
+            background-color: #4b6cb7;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin: 0 auto;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .rsvp-button:hover {
+            background-color: #3a5a9b;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <div class="header">
+            <h1>Summer Coding Workshop</h1>
+            <div class="subtitle">Learn, Code, and Network with Industry Experts</div>
+        </div>
+        
+        <div class="content">
+            <div class="details">
+                <div class="detail-item">
+                    <h3>Date</h3>
+                    <p>August 15-17, 2023</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Time</h3>
+                    <p>9:00 AM - 5:00 PM Daily</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Location</h3>
+                    <p>CODE YOUR FUTURE,TRAINING CENTRE IN LONDON <br>14 BEDFORD ROW,EC1N 2PB</p>
+                </div>
+            </div>
+            
+            <div class="description">
+                <p>Join us for our annual Summer Coding Workshop where you'll learn the latest technologies from industry leaders. This three-day intensive workshop covers web development, data science, and cloud computing with hands-on projects and networking opportunities.</p>
+            </div>
+            
+            <h2>Confirmed Attendees</h2>
+            <table class="guest-list">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Specialty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sarah Johnson</td>
+                        <td>Google</td>
+                        <td>Web Development</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Chen</td>
+                        <td>Amazon</td>
+                        <td>Cloud Computing</td>
+                    </tr>
+                    <tr>
+                        <td>David Wilson</td>
+                        <td>Facebook</td>
+                        <td>Data Science</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Rodriguez</td>
+                        <td>Microsoft</td>
+                        <td>AI/ML</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <a href="#rsvp" class="rsvp-button">RSVP NOW</a>
+        </div>
+        
+        <div class="footer">
+            <p>Questions? Contact ALI at alkhatabalhasan@gmail.com PHONE:07513224866</p>
+            <p>FOR ALI . All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
